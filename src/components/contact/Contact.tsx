@@ -1,14 +1,21 @@
-import React from 'react';
-
 const Contact = () => {
   return (
     <div>
       <h1>お問い合わせフォーム</h1>
-      <p>すべての項目が必須項目です</p>
+      <span title="close">X</span>
+      <p>すべての項目が必須項目です。</p>
+      <img src="https://sample.jpg" alt="sample alt" />
+      <div data-testid='custom-element'>カスタムhtml</div>
       <form action="">
         <div>
           <label htmlFor="name">お名前</label>
-          <input type="text" id="name" />
+          <input
+            type="text"
+            id="name"
+            placeholder="フルネーム"
+            value="sena"
+            onChange={() => {}}
+          />
         </div>
 
         <div>
