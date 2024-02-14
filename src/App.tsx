@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Contact from './components/contact/Contact';
+import Counter from './components/counter/Counter';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Contact/>
+      <Contact />
+      <Counter />
     </div>
   );
 }
